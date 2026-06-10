@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 奶油色暖调背景 -->
+    <color name="background">#FFF8E7</color>
+    <!-- 奶龙主题黄 -->
+    <color name="nailong_yellow">#FFD93D</color>
+    <color name="nailong_yellow_dark">#F5C518</color>
+    <!-- 腮红粉 -->
+    <color name="nailong_blush">#FFB6C1</color>
+    <!-- 纯白 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

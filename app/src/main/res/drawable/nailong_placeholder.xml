@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 占位奶龙矢量图 - 简笔画卡通龙，用户可替换为真实奶龙图片 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="300dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+
+    <!-- 身体 - 圆润的蛋形 -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M150,50 C220,50 270,110 270,170 C270,230 220,280 150,280 C80,280 30,230 30,170 C30,110 80,50 150,50 Z" />
+
+    <!-- 肚皮 - 浅色 -->
+    <path
+        android:fillColor="#FFF3B0"
+        android:pathData="M150,100 C200,100 230,130 230,180 C230,230 200,260 150,260 C100,260 70,230 70,180 C70,130 100,100 150,100 Z" />
+
+    <!-- 左角 -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M110,55 L95,15 L120,45 Z" />
+    <!-- 右角 -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M190,55 L205,15 L180,45 Z" />
+
+    <!-- 左眼 - 大笑时眯成弧线 -->
+    <path
+        android:fillColor="#000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="3"
+        android:pathData="M110,125 Q120,110 130,125" />
+    <!-- 右眼 -->
+    <path
+        android:fillColor="#000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="3"
+        android:pathData="M170,125 Q180,110 190,125" />
+
+    <!-- 大笑嘴巴 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#000000"
+        android:strokeWidth="2.5"
+        android:pathData="M105,155 Q150,210 195,155 Q150,175 105,155 Z" />
+
+    <!-- 左腮红 -->
+    <ellipse
+        android:fillColor="#FFB6C1"
+        android:cx="95"
+        android:cy="150"
+        android:rx="15"
+        android:ry="10" />
+    <!-- 右腮红 -->
+    <ellipse
+        android:fillColor="#FFB6C1"
+        android:cx="205"
+        android:cy="150"
+        android:rx="15"
+        android:ry="10" />
+
+    <!-- 左手 (捧腹) -->
+    <path
+        android:fillColor="#FFD93D"
+        android:strokeColor="#F5C518"
+        android:strokeWidth="2"
+        android:pathData="M55,180 Q35,170 40,195 Q45,215 65,210 Q80,205 75,190 Z" />
+    <!-- 右手 (捧腹) -->
+    <path
+        android:fillColor="#FFD93D"
+        android:strokeColor="#F5C518"
+        android:strokeWidth="2"
+        android:pathData="M245,180 Q265,170 260,195 Q255,215 235,210 Q220,205 225,190 Z" />
+
+    <!-- 左脚 -->
+    <ellipse
+        android:fillColor="#FFD93D"
+        android:cx="115"
+        android:cy="280"
+        android:rx="25"
+        android:ry="12" />
+    <!-- 右脚 -->
+    <ellipse
+        android:fillColor="#FFD93D"
+        android:cx="185"
+        android:cy="280"
+        android:rx="25"
+        android:ry="12" />
+
+    <!-- 笑出来的眼泪 - 左 -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M108,130 Q105,140 108,145 Q112,140 108,130 Z" />
+    <!-- 笑出来的眼泪 - 右 -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M192,130 Q195,140 192,145 Q188,140 192,130 Z" />
+
+</vector>
