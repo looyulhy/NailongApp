@@ -1,4 +1,3 @@
-// Top-level build file with direct plugin declarations
 buildscript {
     val agpVersion = "8.7.3"
     val kotlinVersion = "2.1.0"
@@ -10,12 +9,5 @@ buildscript {
     dependencies {
         classpath("com.android.tools.build:gradle:$agpVersion")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
     }
 }
